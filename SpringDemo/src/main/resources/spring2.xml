@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <!--为成员变量赋null，这里需要用专门的null标签来赋值-->
+    <bean id="macbookpro1" class="com.huawei.yinya.ComplexLaptop">
+        <property name="name">
+            <null/>
+        </property>
+        <!--使用ref标签引用IOC容器中的master-->
+        <property name="master" ref="master">
+        </property>
+    </bean>
+
+
+    <bean id="master" class="com.huawei.yinya.Master">
+        <property name="name" value="yinya"/>
+    </bean>
+
+
+    <bean id="macbookpro2" class="com.huawei.yinya.ComplexLaptop">
+        <property name="name">
+            <null/>
+        </property>
+        <!--使用bean标签创建master master=new Master() 不是单例-->
+        <property name="master">
+            <bean class="com.huawei.yinya.Master">
+                <property name="name" value="yinya"/>
+            </bean>
+        </property>
+    </bean>
+
+
+    <bean id="user2" class="com.huawei.yinya.Master">
+        <property name="name" value="zhuqi"/>
+    </bean>
+    <!--为list<Master> 赋值-->
+    <bean id="macbookpro3" class="com.huawei.yinya.ComplexLaptop">
+
+        <!--使用list标签创建 list =new Arraylist<Master>()-->
+        <property name="masters">
+            <list>
+                <!--使用bean标签窗前一个user-->
+                <bean id="user1" class="com.huawei.yinya.Master" p:name="zhouyangkai"/>
+                <!--使用ref标签引用一个ioc容器中的user-->
+                <ref bean="user2"/>
+            </list>
+        </property>
+    </bean>
+
+
+    <!--为Map<String,Object> 赋值-->
+    <bean id="macbookpro4" class="com.huawei.yinya.ComplexLaptop">
+        <!--使用map标签创建 list =new Hashmap<String,Object>()-->
+        <property name="map">
+            <map>
+                <!--value为字符串-->
+                <entry key="string" value="master"/>
+                <!--value为int-->
+                <entry key="int" value="18"/>
+                <!--value 是一个IOC容器bean-->
+                <entry key="outterBean" value-ref="user2"/>
+                <!--value 是一个通过bean标签创建的bean-->
+                <entry key="innerBean">
+                    <bean class="com.huawei.yinya.Master">
+                        <property name="name" value="yinya"/>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+
+    <!--为properties属性赋值-->
+    <bean id="macbookpro5" class="com.huawei.yinya.ComplexLaptop">
+        <!--使用props标签创建 list =new Hashmap<String,Object>()-->
+        <property name="properties">
+            <props>
+                <prop key="hello">value</prop>
+                <prop key="nihao">china</prop>
+            </props>
+        </property>
+    </bean>
+
+
+
+
+</beans>
