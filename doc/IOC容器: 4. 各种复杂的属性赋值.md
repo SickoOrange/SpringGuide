@@ -212,10 +212,23 @@ list列表用有两个使用者 zhouyangkai 跟zhuqi
 
 同样使用util名称空间还可以创建如下：
 
-- <util list>
-- <util set>
-- <util propertis>
+- util list
+- util set
+- util propertis
 
 
 
 ##### 为级联属性赋值
+
+```xml
+    <!--为级联属性赋值 所谓的级联属性就是属性的属性，比如Laptop中Master的name-->
+    <!--master.name相对于Laptop就是一个级联属性-->
+    <bean id="macbookpro6" class="com.huawei.yinya.ComplexLaptop">
+        <property name="master" ref="master"/>
+        <!--现在master中name由yinya变成了zhouyangkai-->
+        <!--级联属性赋值 也会修改IOC容器中master的属性！-->
+        <!--因为这里使用的是ref引用，引用的直接是地址！-->
+        <property name="master.name" value="zhouyangkai"/>
+    </bean>
+```
+
