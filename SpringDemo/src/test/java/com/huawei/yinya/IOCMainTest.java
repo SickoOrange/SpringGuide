@@ -1,9 +1,8 @@
 package com.huawei.yinya;
 
+import com.huawei.yinya.xml.Laptop;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import static org.junit.Assert.*;
 
 public class IOCMainTest {
 

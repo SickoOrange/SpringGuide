@@ -1,4 +1,4 @@
-package com.huawei.yinya;
+package com.huawei.yinya.xml;
 
 import org.springframework.beans.factory.FactoryBean;
 

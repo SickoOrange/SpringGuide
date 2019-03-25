@@ -1,5 +1,8 @@
 package com.huawei.yinya;
 
+import com.huawei.yinya.xml.ComplexLaptop;
+import com.huawei.yinya.xml.Laptop;
+import com.huawei.yinya.xml.Master;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

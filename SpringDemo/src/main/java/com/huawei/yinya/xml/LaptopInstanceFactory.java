@@ -1,4 +1,4 @@
-package com.huawei.yinya;
+package com.huawei.yinya.xml;
 
 public class LaptopInstanceFactory {
 

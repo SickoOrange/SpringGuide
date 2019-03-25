@@ -6,7 +6,7 @@
 
 
     <!--为成员变量赋null，这里需要用专门的null标签来赋值-->
-    <bean id="macbookpro1" class="com.huawei.yinya.ComplexLaptop">
+    <bean id="macbookpro1" class="com.huawei.yinya.xml.ComplexLaptop">
         <property name="name">
             <null/>
         </property>
@@ -16,35 +16,35 @@
     </bean>
 
 
-    <bean id="master" class="com.huawei.yinya.Master">
+    <bean id="master" class="com.huawei.yinya.xml.Master">
         <property name="name" value="yinya"/>
     </bean>
 
 
-    <bean id="macbookpro2" class="com.huawei.yinya.ComplexLaptop">
+    <bean id="macbookpro2" class="com.huawei.yinya.xml.ComplexLaptop">
         <property name="name">
             <null/>
         </property>
         <!--使用bean标签创建master master=new Master() 不是单例-->
         <property name="master">
-            <bean class="com.huawei.yinya.Master">
+            <bean class="com.huawei.yinya.xml.Master">
                 <property name="name" value="yinya"/>
             </bean>
         </property>
     </bean>
 
 
-    <bean id="user2" class="com.huawei.yinya.Master">
+    <bean id="user2" class="com.huawei.yinya.xml.Master">
         <property name="name" value="zhuqi"/>
     </bean>
     <!--为list<Master> 赋值-->
-    <bean id="macbookpro3" class="com.huawei.yinya.ComplexLaptop">
+    <bean id="macbookpro3" class="com.huawei.yinya.xml.ComplexLaptop">
 
         <!--使用list标签创建 list =new Arraylist<Master>()-->
         <property name="masters">
             <list>
                 <!--使用bean标签窗前一个user-->
-                <bean id="user1" class="com.huawei.yinya.Master" p:name="zhouyangkai"/>
+                <bean id="user1" class="com.huawei.yinya.xml.Master" p:name="zhouyangkai"/>
                 <!--使用ref标签引用一个ioc容器中的user-->
                 <ref bean="user2"/>
             </list>
@@ -53,7 +53,7 @@
 
 
     <!--为Map<String,Object> 赋值-->
-    <bean id="macbookpro4" class="com.huawei.yinya.ComplexLaptop">
+    <bean id="macbookpro4" class="com.huawei.yinya.xml.ComplexLaptop">
         <!--使用map标签创建 list =new Hashmap<String,Object>()-->
         <property name="map">
             <map>
@@ -65,7 +65,7 @@
                 <entry key="outterBean" value-ref="user2"/>
                 <!--value 是一个通过bean标签创建的bean-->
                 <entry key="innerBean">
-                    <bean class="com.huawei.yinya.Master">
+                    <bean class="com.huawei.yinya.xml.Master">
                         <property name="name" value="yinya"/>
                     </bean>
                 </entry>
@@ -75,7 +75,7 @@
 
 
     <!--为properties属性赋值-->
-    <bean id="macbookpro5" class="com.huawei.yinya.ComplexLaptop">
+    <bean id="macbookpro5" class="com.huawei.yinya.xml.ComplexLaptop">
         <!--使用props标签创建 list =new Hashmap<String,Object>()-->
         <property name="properties">
             <props>
@@ -88,7 +88,7 @@
 
     <!--为级联属性赋值 所谓的级联属性就是属性的属性，比如Laptop中Master的name-->
     <!--master.name相对于Laptop就是一个级联属性-->
-    <bean id="macbookpro6" class="com.huawei.yinya.ComplexLaptop">
+    <bean id="macbookpro6" class="com.huawei.yinya.xml.ComplexLaptop">
         <property name="master" ref="master"/>
         <!--现在master中name由yinya变成了zhouyangkai-->
         <property name="master.name" value="zhouyangkai"/>
@@ -96,7 +96,7 @@
 
 
     <!--Bean属性的继承-->
-    <bean id="laptop" class="com.huawei.yinya.Laptop">
+    <bean id="laptop" class="com.huawei.yinya.xml.Laptop">
         <property name="name" value="lenovo"/>
         <property name="model" value="2018"/>
         <property name="price" value="5000"/>
@@ -105,28 +105,28 @@
     <!--Bean属性的继承 通过parent标签实现-->
     <!--使用parent标签表示当前的laptopcopy中的属性都继承与laotop-->
     <!--但是 laptopcopy跟laptop之间并没有直接的关系，也没有继承关系-->
-    <bean id="laptopcopy1" class="com.huawei.yinya.Laptop" parent="laptop">
+    <bean id="laptopcopy1" class="com.huawei.yinya.xml.Laptop" parent="laptop">
     </bean>
 
     <!--通过parent标签继承的属性如果想直接更改，可直接使用property标签-->
-    <bean id="laptopcopy2" class="com.huawei.yinya.Laptop" parent="laptop">
+    <bean id="laptopcopy2" class="com.huawei.yinya.xml.Laptop" parent="laptop">
         <property name="name" value="razer"/>
     </bean>
 
 
     <!--静态工厂配置-->
-    <bean id="xiaomi" class="com.huawei.yinya.LaptopStaticFactory" factory-method="createLaotop">
+    <bean id="xiaomi" class="com.huawei.yinya.xml.LaptopStaticFactory" factory-method="createLaotop">
         <constructor-arg value="xiaomi"/>
     </bean>
 
     <!--实例工厂配置-->
-    <bean id="instanceFactory" class="com.huawei.yinya.LaptopInstanceFactory"/>
-    <bean id="huawei" class="com.huawei.yinya.Laptop" factory-bean="instanceFactory" factory-method="createLaotop">
+    <bean id="instanceFactory" class="com.huawei.yinya.xml.LaptopInstanceFactory"/>
+    <bean id="huawei" class="com.huawei.yinya.xml.Laptop" factory-bean="instanceFactory" factory-method="createLaotop">
         <constructor-arg value="huawei"/>
     </bean>
 
     <!--FactoryBean工厂配置-->
-    <bean id="factoryBeanLaptop" class="com.huawei.yinya.LaptopFactoryBeanImpl"/>
+    <bean id="factoryBeanLaptop" class="com.huawei.yinya.xml.LaptopFactoryBeanImpl"/>
 
 
 </beans>

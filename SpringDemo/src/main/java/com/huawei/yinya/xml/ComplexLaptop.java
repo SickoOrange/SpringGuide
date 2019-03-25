@@ -1,4 +1,4 @@
-package com.huawei.yinya;
+package com.huawei.yinya.xml;
 
 import java.util.List;
 import java.util.Map;
@@ -80,5 +80,18 @@ public class ComplexLaptop {
 
     public void setProperties(Properties properties) {
         this.properties = properties;
+    }
+
+    @Override
+    public String toString() {
+        return "ComplexLaptop{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", model='" + model + '\'' +
+                ", master=" + master +
+                ", masters=" + masters +
+                ", map=" + map +
+                ", properties=" + properties +
+                '}';
     }
 }
