@@ -2,50 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f6f7dba-5df5-4dcf-b627-72d129678991" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/bean/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/bean/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/bean/ImportBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/MacCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/MyBeanDefinitionRegistrar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/MyFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/MyImportSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/MyTypeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/WindowsCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/components/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/components/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/components/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfig2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/CarInitializingBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/test/BeanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/test/IOCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Git 教程.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC 与 AOP Spring的核心.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 1. 通过Property标签为属性赋值.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 10. 通过注解来创建Bean.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 11. @Autowired注解的自动装配功能.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 12 在单元测试中使用Autowired注解.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 13 Spring的泛型依赖注入.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 2. 通过构造器标签为属性赋值.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 3. 通过P名称空间标签为属性赋值.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 4. 各种复杂的属性赋值.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 5. Bean属性的继承与依赖.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 6. Bean的作用域与工厂方法.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 7. Bean的生命周期方法跟后置处理器.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 8. Spring管理数据库连接池.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/IOC容器: 9. 基于XML的自定义对象自动装配.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Spring AOP 1. 一个简单的性能监控日志框架.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Spring AOP 2. AOP切面实现日志打印.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Spring AOP 3. AOP 环绕通知.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/image/屏幕快照 2019-03-24 下午10.32.22.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyApplicationContextAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yinya/config/MainConfigLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinya/config/MainConfigLifeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yinya/test/MainConfig2test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinya/test/MainConfig2test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yinya/test/MainConfigLiftCycleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yinya/test/MainConfigLiftCycleTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,46 +22,6 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfig2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyBeanPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -105,15 +29,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
@@ -145,11 +60,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="354" column="24" lean-forward="true" selection-start-line="354" selection-start-column="24" selection-end-line="354" selection-end-column="24" />
+            <state relative-caret-position="131">
+              <caret line="1086" selection-start-line="1086" selection-end-line="1086" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyApplicationContextAware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,14 +166,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/config/MyFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/beanregistrar/MyFactoryBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfig2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/bean/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLiftCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/CarInitializingBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/bean/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyBeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinya/test/MyApplicationContextAware.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyApplicationContextAware.java" />
       </list>
     </option>
   </component>
@@ -218,7 +186,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="29" />
     <option name="width" value="1400" />
@@ -319,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554041477079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554046212915" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -351,7 +319,7 @@
       <module name="Spring-Annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinya.test.*" />
+          <option name="PATTERN" value="com.yinya.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,7 +332,7 @@
       <module name="Spring-Annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinya.test.*" />
+          <option name="PATTERN" value="com.yinya.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,7 +345,7 @@
       <module name="Spring-Annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinya.test.*" />
+          <option name="PATTERN" value="com.yinya.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,7 +358,7 @@
       <module name="Spring-Annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yinya.test.*" />
+          <option name="PATTERN" value="com.yinya.lifecycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,12 +385,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554028068507</updated>
-      <workItem from="1554028073456" duration="11498000" />
+      <workItem from="1554028073456" duration="12629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11498000" />
+    <option name="totallyTimeSpent" value="12629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="29" width="1400" height="768" extended-state="0" />
@@ -433,7 +401,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32547864" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32547864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -445,8 +413,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29881656" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37278107" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29881656" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37278107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -470,10 +438,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyBeanPostProcessor.java</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyApplicationContextAware.java</url>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -679,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/bean/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -736,16 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -766,26 +714,6 @@
             <element signature="e#606#607#0" expanded="true" />
             <element signature="e#760#761#0" expanded="true" />
             <element signature="e#871#872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,8 +755,61 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="354" column="24" lean-forward="true" selection-start-line="354" selection-start-column="24" selection-end-line="354" selection-end-column="24" />
+        <state relative-caret-position="131">
+          <caret line="1086" selection-start-line="1086" selection-end-line="1086" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfig2test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/config/MainConfigLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/test/MainConfigLiftCycleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yinya/lifecycle/MyApplicationContextAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

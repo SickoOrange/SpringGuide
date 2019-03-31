@@ -4,6 +4,7 @@ import com.yinya.bean.Person;
 import com.yinya.config.MainConfig;
 import com.yinya.config.MainConfig2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.ConfigurableEnvironment;
 
 import java.util.Map;
@@ -28,6 +29,7 @@ public class MainConfig2test {
         // 获取工厂bean
         Object myFactoryBean = context.getBean("&myFactoryBean");
         System.out.println(myFactoryBean);
+
 
     }
 }

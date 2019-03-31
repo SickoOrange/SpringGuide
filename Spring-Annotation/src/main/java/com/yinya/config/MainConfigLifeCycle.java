@@ -1,9 +1,9 @@
 package com.yinya.config;
 
 
-import com.yinya.bean.Car;
 import com.yinya.bean.Dog;
-import org.springframework.context.annotation.Bean;
+import com.yinya.lifecycle.MyApplicationContextAware;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
@@ -19,6 +19,7 @@ public class MainConfigLifeCycle {
 //    public Car car() {
 //        return new Car();
 //    }
+
 
 
 }
