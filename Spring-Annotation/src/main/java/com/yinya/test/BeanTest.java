@@ -1,10 +1,10 @@
-package com.yinya;
+package com.yinya.test;
 
 import com.yinya.bean.Person;
 import com.yinya.config.MainConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class MainTest {
+public class BeanTest {
 
     public static void main(String[] args) {
 

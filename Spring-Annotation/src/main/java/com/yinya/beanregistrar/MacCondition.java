@@ -1,4 +1,4 @@
-package com.yinya.config;
+package com.yinya.beanregistrar;
 
 import com.yinya.bean.Person;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

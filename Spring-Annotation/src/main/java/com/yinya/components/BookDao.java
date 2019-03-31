@@ -1,4 +1,4 @@
-package com.yinya.conponents;
+package com.yinya.components;
 
 import org.springframework.stereotype.Repository;
 

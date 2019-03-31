@@ -1,4 +1,4 @@
-package com.huawei.yinya;
+package com.yinya.bean;
 
 public class Person {
     private String name;

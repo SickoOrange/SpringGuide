@@ -1,4 +1,4 @@
-package com.yinya.config;
+package com.yinya.beanregistrar;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.type.AnnotationMetadata;

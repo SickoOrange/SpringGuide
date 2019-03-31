@@ -1,4 +1,4 @@
-package com.yinya.config;
+package com.yinya.bean;
 
-public class Import {
+public class ImportBean {
 }

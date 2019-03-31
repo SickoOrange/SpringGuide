@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="277a2dd2-14a8-4b91-8841-b086e23ce1a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorNoInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/ProxyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ThreadExecutorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ioc/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/Spring AOP 一个简单的性能监控日志框架.md" beforeDir="false" />
-    </list>
+    <list default="true" id="277a2dd2-14a8-4b91-8841-b086e23ce1a2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
-              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+            <state relative-caret-position="461">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -216,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554025084304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554027386820" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38850576" />
@@ -324,7 +308,7 @@
       <updated>1553876866368</updated>
       <workItem from="1553876869329" duration="1632000" />
       <workItem from="1553878786753" duration="3389000" />
-      <workItem from="1554022057305" duration="2832000" />
+      <workItem from="1554022057305" duration="3336000" />
     </task>
     <servers />
   </component>
@@ -361,7 +345,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7853000" />
+    <option name="totallyTimeSpent" value="8357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="29" width="1400" height="768" extended-state="0" />
@@ -375,7 +359,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.50147927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50147927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +465,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -490,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        <state relative-caret-position="461">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>

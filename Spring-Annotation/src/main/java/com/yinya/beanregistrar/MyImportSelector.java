@@ -1,4 +1,4 @@
-package com.yinya.config;
+package com.yinya.beanregistrar;
 
 import com.yinya.bean.ImportBean;
 import org.springframework.context.annotation.ImportSelector;
