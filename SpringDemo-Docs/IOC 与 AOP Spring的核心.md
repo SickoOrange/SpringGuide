@@ -20,4 +20,4 @@ IOC能够帮我们提供一下功能：
 
 ### Spring的模块划分
 
-![屏幕快照 2019-03-31 下午6.18.02](/Users/yayin/Desktop/屏幕快照 2019-03-31 下午6.18.02.png)
+![屏幕快照 2019-03-31 下午6.18.02](https://ws4.sinaimg.cn/large/006tKfTcgy1g1mczri1xaj30xg0mudm9.jpg)
