@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <!--所谓的自动装配也就是说为Bean中的自定义对象进行自动赋值-->
+    <!--常规情况下为Bean的自定义对象赋值可以只用引用赋值等方法，但是都需要手动指定-->
+    <!--但是Spring IOC容器给我们提供了一种自动装配赋值的方法 可以自动的为macbook中的Master-->
+    <!--对象进行赋值-->
+    <!--这就是autowired标签-->
+    <!--autowire标签一共有五种取值-->
+    <!--1。 default/no 默认不自动装配赋值-->
+    <!--2. byName 按照属性名自动装配，比如macbook中含有一个master的自定义属性-->
+    <!--Spring回去IOC容器自动寻找id为master的bean，找不到就不自动装配-->
+    <!--3. byType 按照type类型自动装配，前提是IOC容器只能含有一个Master对象的bean，-->
+    <!--因为按照类型查找不能配置多个类型相同的bean-->
+    <!--4. constructor 按照构造器进行自动装配-->
+    <bean id="macbook" class="com.huawei.yinya.xml.ComplexLaptop" autowire="byName">
+        <property name="name" value="macbookPro"/>
+    </bean>
+
+    <!--bean的生命周期方法-->
+    <bean id="master" class="com.huawei.yinya.xml.Master">
+        <property name="name" value="yinya"/>
+    </bean>
+
+
+</beans>

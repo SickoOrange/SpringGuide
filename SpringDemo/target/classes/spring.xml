@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="macbookpro" class="com.huawei.yinya.xml.Laptop">
+        <!--通过property标签为Bean中的属性进行赋值-->
+        <property name="name" value="macbookpro"/>
+        <property name="model" value="2018"/>
+        <property name="price" value="15000"/>
+    </bean>
+
+    <bean id="lenovo" class="com.huawei.yinya.xml.Laptop">
+        <!--通过property标签为Bean中的属性进行赋值-->
+        <property name="name" value="lenovo"/>
+        <property name="model" value="2018"/>
+        <property name="price" value="5000"/>
+    </bean>
+
+    <!--使用构造器进行赋值-->
+    <bean id="acer" class="com.huawei.yinya.xml.Laptop">
+        <constructor-arg name="name" value="acer"/>
+        <constructor-arg name="model" value="2018"/>
+        <constructor-arg name="price" value="4000"/>
+    </bean>
+
+    <!--可以省略name属性，那么定义的时候需要严格的按照构造器参数来进行赋值-->
+    <!--如果赋值顺序没有按照构造器参数的顺序，会产生赋值错误，甚至不能赋值的问题-->
+    <bean id="acer1" class="com.huawei.yinya.xml.Laptop">
+        <constructor-arg value="acer1"/>
+        <constructor-arg value="2018"/>
+        <constructor-arg value="4000"/>
+    </bean>
+
+    <!--可以省略name属性，如果不严格的按照构造器参数来进行赋值-->
+    <!--可以使用index来显示的指定赋值的顺序，0代表构造器的第一个参数，以此类推-->
+    <bean id="acer2" class="com.huawei.yinya.xml.Laptop">
+        <constructor-arg value="acer1" index="0"/>
+        <constructor-arg value="2018" index="1"/>
+        <constructor-arg value="4000" index="2"/>
+    </bean>
+
+    <!--可以省略name属性，如果不严格的按照构造器参数来进行赋值，又有多个构造器重载的情况-->
+    <!--Type标签主要用于指定给当前赋值的字段具体类型-->
+    <!--这种方式不推荐使用，比较复杂-->
+    <bean id="acer3" class="com.huawei.yinya.xml.Laptop">
+        <constructor-arg value="acer1" index="0" type="java.lang.String"/>
+        <constructor-arg value="2018" index="1" type="java.lang.Integer"/>
+        <constructor-arg value="4000" index="2" type="java.lang.String"/>
+    </bean>
+
+    <!--通过p名称空间进行赋值-->
+    <bean id="macbookpro1" class="com.huawei.yinya.xml.Laptop"
+          p:name="macbookpro"
+          p:model="2018"
+          p:price="20000">
+    </bean>
+</beans>

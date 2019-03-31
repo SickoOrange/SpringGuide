@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="277a2dd2-14a8-4b91-8841-b086e23ce1a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorNoInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ThreadExecutorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ioc/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ioc/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/Spring AOP 一个简单的性能监控日志框架.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorNoInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/ProxyClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ThreadExecutorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/PerformanceMonitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/AspectProtoTypeClass.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/aop.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorNoInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectProtoTypeClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ThreadExecutorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/AspectClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/ProxyClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringDemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="11" />
+    <option name="y" value="29" />
+    <option name="width" value="1400" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554025084304" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38850576" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huawei.yinya.AOP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ESightPerformanceMonitorTest.aopTest">
+    <configuration name="ThreadExecutorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huawei.yinya.AOP.ThreadExecutorTest" />
+      <module name="SpringDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.yinya.AOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESightPerformanceMonitorTest.aopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.yinya.AOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.yinya.AOP" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.yinya.AOP.ESightPerformanceMonitorTest" />
+      <option name="METHOD_NAME" value="aopTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESightPerformanceMonitorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.yinya.AOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.yinya.AOP" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.yinya.AOP.ESightPerformanceMonitorTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExecutorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.yinya.AOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huawei.yinya.AOP" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.yinya.AOP.ThreadExecutorTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ESightPerformanceMonitorTest.aopTest" />
+        <item itemvalue="JUnit.ESightPerformanceMonitorTest.test" />
+        <item itemvalue="Application.ThreadExecutorTest" />
+        <item itemvalue="JUnit.ThreadExecutorTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="277a2dd2-14a8-4b91-8841-b086e23ce1a2" name="Default Changelist" comment="" />
+      <created>1553876866368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553876866368</updated>
+      <workItem from="1553876869329" duration="1632000" />
+      <workItem from="1553878786753" duration="3389000" />
+      <workItem from="1554022057305" duration="2832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 01m 24s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 09m 09s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 14m 39s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 22m 33s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 23m 10s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 33m 56s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_test - 2019.03.31 at 17h 34m 35s.xml">
+      <configuration name="ESightPerformanceMonitorTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_aopTest - 2019.03.31 at 17h 34m 59s.xml">
+      <configuration name="ESightPerformanceMonitorTest.aopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_aopTest - 2019.03.31 at 17h 35m 57s.xml">
+      <configuration name="ESightPerformanceMonitorTest.aopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESightPerformanceMonitorTest_aopTest - 2019.03.31 at 17h 37m 28s.xml">
+      <configuration name="ESightPerformanceMonitorTest.aopTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7853000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="11" y="29" width="1400" height="768" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.281296" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.50147927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32988167" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3298969" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Json Parser" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/annotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/PerformanceMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ThreadExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorNoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitorProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/EsightPerformanceMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/ProxyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huawei/yinya/AOP/spring/AspectClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/huawei/yinya/AOP/ESightPerformanceMonitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38850576" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|SpringDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38850576" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38850576" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

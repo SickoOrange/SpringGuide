@@ -1,10 +1,8 @@
 package com.huawei.yinya.AOP;
 
 import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
 
 public class EsightPerformanceMonitorProxy {
 
@@ -28,13 +26,13 @@ public class EsightPerformanceMonitorProxy {
                 // 利用反射执行方法 并方法的执行结果
                 Object invoke = null;
                 try {
-                    System.out.println("动态代理：开始执行方法:" + method.getName() + " 参数：" + Arrays.asList(args));
+                    ProxyClass.methodStart(method, args);
                     invoke = method.invoke(performanceMonitor, args);
-                    System.out.println("动态代理：方法正常执行结束:" + method.getName() + " 结果：" + invoke);
+                    ProxyClass.methodReturning(method, invoke);
                 } catch (Exception e) {
-                    System.out.println("动态代理：方法执行出现异常:" + method.getName() + " Exception cause：" + e.getCause());
+                    ProxyClass.methodThrowing(method, e);
                 } finally {
-                    System.out.println("动态代理：方法最终执行结束" + method.getName());
+                    ProxyClass.methodFinish(method, args);
                 }
                 return invoke;
             }
